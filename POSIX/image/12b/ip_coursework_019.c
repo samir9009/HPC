@@ -24,7 +24,6 @@
   To compile adapt the code below wo match your filenames:  
     cc -o ip_coursework_019 ip_coursework_019.c -lglut -lGL -lm 
    
-  Dr Kevan Buckley, University of Wolverhampton, 2018
 ******************************************************************************/
 #define width 100 
 #define height 72

@@ -25,10 +25,10 @@
 int n_passwords = 4;
 
 char *encrypted_passwords[] = {
-  "$6$KB$H8s0k9/1RQ783G9gF69Xkn.MI.Dq5Ox0va/dFlkknNjO7trgekVOjTv1BKCb.nm3vqxmtO2mOplhmFkwZXecz0",
-  "$6$KB$VDUCASt5S88l82JzexhKDQLeUJ5zfxr16VhlVwNOs0YLiLYDciLDmN3QYAE80UIzfryYmpR.NFmbZvAGNoaHW.",
-  "$6$KB$EsP1JEbzKmbN.CzfjPpWW4cFmaULuLMtlwzZweeoOhv.Lq9abZ4eQaZqSzW1X9GmrC8XI4ND3L78fI9HGFrGX/",
-  "$6$KB$Iu4iYgLk4Cuv1Hdc/DTrfNRXVNnKmPPat4bqInq85qs7xNapjF6ZrogA/S88rzpJIWDy27PFI6EzVsg1lL6a80"
+  "$6$KB$51CtT20QhxYFaySrvWILAaTqExQUjACDYdzWtVCO4MLDwldbIfL4JOvef0kJlw/2EF2FT1RTboM.7Ubspxo2N1",
+  "$6$KB$2y7rUoL1ZYcm6HZFi1RyG3lxYkGJnsGrwr4tw0Flk3.iUFNvRJRlSUsLdFZF2kkqQOXVD3IKiz3PmhSo32AsA0",
+  "$6$KB$GIkiC.83K5a8w.K8QN0CraOxQWqBMT7Zg7wCpg6tnw8qif8ixEK6ks3v7AfCC5L/LGghJlyrxfDigcb2vpIkq0",
+  "$6$KB$eLSNKH/oufGrRDDNHx3qUNSL4/KRCTK4GaeVfy2gsOlDK3Nf2juGygydgsJosVXGCKhY/DeFE4k1KvpojnwjT0"
 };
 
 /**
@@ -65,7 +65,7 @@ void crack(char *salt_and_encrypted){
         count++;
         if(strcmp(salt_and_encrypted, enc) == 0){
           printf("#%-8d%s %s\n", count, plain, enc);
-	  return;
+	 
         }
       }
     }

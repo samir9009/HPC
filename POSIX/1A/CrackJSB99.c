@@ -9,10 +9,10 @@
 int n_passwords = 4;
 
 char *encrypted_passwords[] = {
-  "$6$KB$JeVM1k77Et.CgxeHCXl3rtIvM4Mz5Qmfdjy4hdoXQjBbq2sZ8Hy0nLut/aUIEGyxqfCb9lSF9qsoTSZ4c2zTJ.",
-  "$6$KB$QHAnM.aHp5I4tJzC.IaZPZkZ4mEu1L9vcYv23jCpnka5eyqaXEu8qmENr/qUsIQftMVYmGNdtjBTC48Ubr7GI0",
-  "$6$KB$wEySWhqIQp4sQpLka/aTQ5xC0zaGubZGSQLYvvXz6aRmmDi.WAs168q6M8mkjHRrl0Vb6h4El5pQKCEuDK.HF0",
-  "$6$KB$LiSz6YVe0xEZa/IKf6PpRB0M9qenzQOt6jdRuZOpptxoMPT9mIQ9SpsDxTnm5HwF7tkBvIbTSc.XU92FrVBdX1"
+  "$6$KB$51CtT20QhxYFaySrvWILAaTqExQUjACDYdzWtVCO4MLDwldbIfL4JOvef0kJlw/2EF2FT1RTboM.7Ubspxo2N1",
+  "$6$KB$2y7rUoL1ZYcm6HZFi1RyG3lxYkGJnsGrwr4tw0Flk3.iUFNvRJRlSUsLdFZF2kkqQOXVD3IKiz3PmhSo32AsA0",
+  "$6$KB$GIkiC.83K5a8w.K8QN0CraOxQWqBMT7Zg7wCpg6tnw8qif8ixEK6ks3v7AfCC5L/LGghJlyrxfDigcb2vpIkq0",
+  "$6$KB$eLSNKH/oufGrRDDNHx3qUNSL4/KRCTK4GaeVfy2gsOlDK3Nf2juGygydgsJosVXGCKhY/DeFE4k1KvpojnwjT0"
 };
 
 

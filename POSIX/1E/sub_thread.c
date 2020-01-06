@@ -11,7 +11,7 @@ int n_passwords = 4;
 char *encrypted_passwords[] = {
 
 
-  "$6$KB$51CtT20QhxYFaySrvWILAaTqExQUjACDYdzWtVCO4MLDwldbIfL4JOvef0kJlw/2EF2FT1RTboM.7Ubspxo2N1",
+   "$6$KB$51CtT20QhxYFaySrvWILAaTqExQUjACDYdzWtVCO4MLDwldbIfL4JOvef0kJlw/2EF2FT1RTboM.7Ubspxo2N1",
   "$6$KB$2y7rUoL1ZYcm6HZFi1RyG3lxYkGJnsGrwr4tw0Flk3.iUFNvRJRlSUsLdFZF2kkqQOXVD3IKiz3PmhSo32AsA0",
   "$6$KB$GIkiC.83K5a8w.K8QN0CraOxQWqBMT7Zg7wCpg6tnw8qif8ixEK6ks3v7AfCC5L/LGghJlyrxfDigcb2vpIkq0",
   "$6$KB$eLSNKH/oufGrRDDNHx3qUNSL4/KRCTK4GaeVfy2gsOlDK3Nf2juGygydgsJosVXGCKhY/DeFE4k1KvpojnwjT0"
@@ -58,7 +58,7 @@ for(i=0;i<n_passwords;i<i++) {
 
 void *kernel_function_1(void *salt_and_encrypted){
   int m, a, s;     // Loop counters
-  char salt[7];    // String used in hahttps://www.youtube.com/watch?v=L8yJjIGleMwshing the password. Need space
+  char salt[7];    // String used the password. 
   char plain[7];   // The combination of letters currently being checked
   char *enc;       // Pointer to the encrypted password
   int count = 0;   // The number of combinations explored so far
@@ -83,7 +83,7 @@ void *kernel_function_1(void *salt_and_encrypted){
 
 void *kernel_function_2(void *salt_and_encrypted){
   int m, a, s;     // Loop counters
-  char salt[7];    // String used in hahttps://www.youtube.com/watch?v=L8yJjIGleMwshing the password. Need space
+  char salt[7];    // String used the password. Need space
   char plain[7];   // The combination of letters currently being checked
   char *enc;       // Pointer to the encrypted password
   int count = 0;   // The number of combinations explored so far
